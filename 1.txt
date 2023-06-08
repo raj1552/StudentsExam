@@ -1,0 +1,14 @@
+Day 1
+1   6
+2   3
+3   6
+
+Day 2
+1   7
+2   0
+3   7
+
+Exam 1
+1   100 Passed
+2   50  Failed
+3   30  Failed

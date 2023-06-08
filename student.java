@@ -1,16 +1,18 @@
-public class student {
+public class Student {
     private int Class;
-    private String gender;
+    private Gender gender;
     private int age;
     private int marks;
     private int rollno;
+    private Name name;
 
-    public student(int Class, String gender, int age, int marks, int rollno) {
+    public Student(int Class, int gender, int age, int marks, int rollno, int name) {
         this.Class = Class;
-        this.gender = gender;
+        this.gender = Gender.fromValue(gender);
         this.age = age;
         this.marks = marks;
         this.rollno = rollno;
+        this.name = Name.getName(name);
 
     }
 
@@ -18,7 +20,7 @@ public class student {
         return Class;
     }
 
-    public String getgender() {
+    public Gender getgender() {
         return gender;
     }
 
@@ -34,9 +36,22 @@ public class student {
         return rollno;
     }
 
+    public Name getname() {
+        return name;
+    }
+
+    public void addMarks(int marks) {
+        this.marks = this.marks + marks;
+    }
+
+    public void resetMarks() {
+        this.marks = 0;
+    }
+
     @Override
     public String toString() {
-        return "Class: " + Class + " " + "Roll.no: " + rollno + " " + "gender: " + gender + " " + "age: " + age + " "
+        return "Class: " + Class + " " + "Name:" + name +" "+ "Roll.no: " + rollno + " " + "gender: " + gender.toString()
+                + " " + "age: " + age + " "
                 + "marks: " + marks + "\n";
     }
 
