@@ -1,231 +1,231 @@
 Day 1 results: 
 	Name 		 Roll.no 	 Marks 
 
-	John		  1			3
+	John		  1			9
 
 	Emma		  2			5
 
-	Oliv		  3			8
+	Oliv		  3			3
 
-	Avai		  4			3
+	Avai		  4			4
 
-	Isabe		  5			8
+	Isabe		  5			2
 
 	Sophi		  6			7
 
-	Robin		  7			8
+	Robin		  7			2
 
-	Doee		  8			10
+	Doee		  8			6
 
-	Smith		  9			8
+	Smith		  9			4
 
 	Johnso		  10			9
 
 Day 2 results: 
 	Name 		 Roll.no 	 Marks 
 
-	John		  1			10
+	John		  1			19
 
 	Emma		  2			9
 
-	Oliv		  3			16
+	Oliv		  3			5
 
-	Avai		  4			4
+	Avai		  4			12
 
-	Isabe		  5			9
+	Isabe		  5			8
 
-	Sophi		  6			13
+	Sophi		  6			9
 
-	Robin		  7			14
+	Robin		  7			6
 
 	Doee		  8			14
 
-	Smith		  9			10
+	Smith		  9			12
 
-	Johnso		  10			17
+	Johnso		  10			15
 
 Day 3 results: 
 	Name 		 Roll.no 	 Marks 
 
-	John		  1			14
+	John		  1			28
 
-	Emma		  2			16
+	Emma		  2			11
 
-	Oliv		  3			19
+	Oliv		  3			7
 
-	Avai		  4			11
+	Avai		  4			15
 
-	Isabe		  5			15
+	Isabe		  5			16
 
-	Sophi		  6			20
+	Sophi		  6			16
 
-	Robin		  7			19
+	Robin		  7			7
 
-	Doee		  8			22
+	Doee		  8			20
 
-	Smith		  9			15
+	Smith		  9			18
 
-	Johnso		  10			27
+	Johnso		  10			24
 
 Day 4 results: 
 	Name 		 Roll.no 	 Marks 
 
-	John		  1			16
+	John		  1			36
 
-	Emma		  2			18
+	Emma		  2			16
 
-	Oliv		  3			23
+	Oliv		  3			14
 
-	Avai		  4			16
+	Avai		  4			25
 
-	Isabe		  5			20
+	Isabe		  5			17
 
-	Sophi		  6			29
+	Sophi		  6			19
 
-	Robin		  7			26
+	Robin		  7			17
 
-	Doee		  8			31
+	Doee		  8			22
 
-	Smith		  9			16
+	Smith		  9			23
 
-	Johnso		  10			32
+	Johnso		  10			34
 
 Day 5 results: 
 	Name 		 Roll.no 	 Marks 
 
-	John		  1			20
+	John		  1			44
 
-	Emma		  2			28
+	Emma		  2			24
 
-	Oliv		  3			33
+	Oliv		  3			22
 
-	Avai		  4			25
+	Avai		  4			32
 
 	Isabe		  5			25
 
-	Sophi		  6			33
+	Sophi		  6			28
 
-	Robin		  7			33
+	Robin		  7			27
 
-	Doee		  8			38
+	Doee		  8			26
 
-	Smith		  9			25
+	Smith		  9			28
 
-	Johnso		  10			39
+	Johnso		  10			44
 
 Day 6 results: 
 	Name 		 Roll.no 	 Marks 
 
-	John		  1			21
+	John		  1			45
 
-	Emma		  2			35
+	Emma		  2			28
 
-	Oliv		  3			35
+	Oliv		  3			29
 
-	Avai		  4			31
+	Avai		  4			33
 
 	Isabe		  5			28
 
-	Sophi		  6			36
+	Sophi		  6			38
 
-	Robin		  7			40
+	Robin		  7			36
 
-	Doee		  8			41
+	Doee		  8			36
 
-	Smith		  9			29
+	Smith		  9			34
 
-	Johnso		  10			48
+	Johnso		  10			45
 
 Day 7 results: 
 	Name 		 Roll.no 	 Marks 
 
-	John		  1			31
+	John		  1			49
 
-	Emma		  2			41
+	Emma		  2			29
 
-	Oliv		  3			41
+	Oliv		  3			35
 
-	Avai		  4			41
+	Avai		  4			42
 
-	Isabe		  5			30
+	Isabe		  5			29
 
-	Sophi		  6			39
+	Sophi		  6			46
 
-	Robin		  7			42
+	Robin		  7			46
 
-	Doee		  8			50
+	Doee		  8			40
 
-	Smith		  9			36
+	Smith		  9			37
 
-	Johnso		  10			57
+	Johnso		  10			49
 
 Day 8 results: 
 	Name 		 Roll.no 	 Marks 
 
-	John		  1			38
+	John		  1			51
 
-	Emma		  2			51
+	Emma		  2			36
 
-	Oliv		  3			51
+	Oliv		  3			41
 
-	Avai		  4			44
+	Avai		  4			49
 
-	Isabe		  5			38
+	Isabe		  5			36
 
-	Sophi		  6			44
+	Sophi		  6			56
 
-	Robin		  7			49
+	Robin		  7			47
 
-	Doee		  8			59
+	Doee		  8			46
 
-	Smith		  9			37
+	Smith		  9			46
 
-	Johnso		  10			67
+	Johnso		  10			52
 
 Day 9 results: 
 	Name 		 Roll.no 	 Marks 
 
-	John		  1			47
+	John		  1			52
 
-	Emma		  2			58
+	Emma		  2			46
 
-	Oliv		  3			52
+	Oliv		  3			48
 
-	Avai		  4			47
+	Avai		  4			54
 
-	Isabe		  5			40
+	Isabe		  5			41
 
-	Sophi		  6			53
+	Sophi		  6			62
 
-	Robin		  7			59
+	Robin		  7			55
 
-	Doee		  8			61
+	Doee		  8			49
 
-	Smith		  9			38
+	Smith		  9			48
 
-	Johnso		  10			76
+	Johnso		  10			61
 
 Final result is here 
 
 	Name 		 Roll.no 	 result 	 Marks 
 
-	John		   1 		 failed		  47
+	John		   1		 passed		  52
 
-	Emma		   2		 passed		  58
+	Emma		   2 		 failed		  46
 
-	Oliv		   3		 passed		  52
+	Oliv		   3 		 failed		  48
 
-	Avai		   4 		 failed		  47
+	Avai		   4		 passed		  54
 
-	Isabe		   5 		 failed		  40
+	Isabe		   5 		 failed		  41
 
-	Sophi		   6		 passed		  53
+	Sophi		   6		 passed		  62
 
-	Robin		   7		 passed		  59
+	Robin		   7		 passed		  55
 
-	Doee		   8		 passed		  61
+	Doee		   8 		 failed		  49
 
-	Smith		   9 		 failed		  38
+	Smith		   9 		 failed		  48
 
-	Johnso		   10		 passed		  76
+	Johnso		   10		 passed		  61
 
