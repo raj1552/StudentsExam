@@ -1,231 +1,71 @@
-Day 1 results: 
+Day1results:
 	Name 		 Roll.no 	 Marks 
 
-	John		  1			9
+	John		 1			8
 
-	Emma		  2			5
+	Emma		 2			6
 
-	Oliv		  3			3
+	Oliv		 3			4
 
-	Avai		  4			4
+	Avai		 4			2
 
-	Isabe		  5			2
+	Isabe		 5			7
 
-	Sophi		  6			7
+	Sophi		 6			1
 
-	Robin		  7			2
+	Robin		 7			3
 
-	Doee		  8			6
+	Doee		 8			7
 
-	Smith		  9			4
+	Smith		 9			6
 
-	Johnso		  10			9
+	Johnso		 10			3
 
-Day 2 results: 
+Day2results:
+
 	Name 		 Roll.no 	 Marks 
 
-	John		  1			19
+	John		 1			3
 
-	Emma		  2			9
+	Emma		 2			9
 
-	Oliv		  3			5
+	Oliv		 3			10
 
-	Avai		  4			12
+	Avai		 4			2
 
-	Isabe		  5			8
+	Isabe		 5			6
 
-	Sophi		  6			9
+	Sophi		 6			7
 
-	Robin		  7			6
+	Robin		 7			10
 
-	Doee		  8			14
+	Doee		 8			5
 
-	Smith		  9			12
+	Smith		 9			9
 
-	Johnso		  10			15
+	Johnso		 10			2
 
-Day 3 results: 
-	Name 		 Roll.no 	 Marks 
+Exam result is here
 
-	John		  1			28
+	Name 		Roll.no 	result 	 Marks 
 
-	Emma		  2			11
+	John		 1		  passed		 11
 
-	Oliv		  3			7
+	Emma		 2		  passed		 15
 
-	Avai		  4			15
+	Oliv		 3		  passed		 14
 
-	Isabe		  5			16
+	Avai		 4 		  failed		 4
 
-	Sophi		  6			16
+	Isabe		 5		  passed		 13
 
-	Robin		  7			7
+	Sophi		 6 		  failed		 8
 
-	Doee		  8			20
+	Robin		 7		  passed		 13
 
-	Smith		  9			18
+	Doee		 8		  passed		 12
 
-	Johnso		  10			24
+	Smith		 9		  passed		 15
 
-Day 4 results: 
-	Name 		 Roll.no 	 Marks 
-
-	John		  1			36
-
-	Emma		  2			16
-
-	Oliv		  3			14
-
-	Avai		  4			25
-
-	Isabe		  5			17
-
-	Sophi		  6			19
-
-	Robin		  7			17
-
-	Doee		  8			22
-
-	Smith		  9			23
-
-	Johnso		  10			34
-
-Day 5 results: 
-	Name 		 Roll.no 	 Marks 
-
-	John		  1			44
-
-	Emma		  2			24
-
-	Oliv		  3			22
-
-	Avai		  4			32
-
-	Isabe		  5			25
-
-	Sophi		  6			28
-
-	Robin		  7			27
-
-	Doee		  8			26
-
-	Smith		  9			28
-
-	Johnso		  10			44
-
-Day 6 results: 
-	Name 		 Roll.no 	 Marks 
-
-	John		  1			45
-
-	Emma		  2			28
-
-	Oliv		  3			29
-
-	Avai		  4			33
-
-	Isabe		  5			28
-
-	Sophi		  6			38
-
-	Robin		  7			36
-
-	Doee		  8			36
-
-	Smith		  9			34
-
-	Johnso		  10			45
-
-Day 7 results: 
-	Name 		 Roll.no 	 Marks 
-
-	John		  1			49
-
-	Emma		  2			29
-
-	Oliv		  3			35
-
-	Avai		  4			42
-
-	Isabe		  5			29
-
-	Sophi		  6			46
-
-	Robin		  7			46
-
-	Doee		  8			40
-
-	Smith		  9			37
-
-	Johnso		  10			49
-
-Day 8 results: 
-	Name 		 Roll.no 	 Marks 
-
-	John		  1			51
-
-	Emma		  2			36
-
-	Oliv		  3			41
-
-	Avai		  4			49
-
-	Isabe		  5			36
-
-	Sophi		  6			56
-
-	Robin		  7			47
-
-	Doee		  8			46
-
-	Smith		  9			46
-
-	Johnso		  10			52
-
-Day 9 results: 
-	Name 		 Roll.no 	 Marks 
-
-	John		  1			52
-
-	Emma		  2			46
-
-	Oliv		  3			48
-
-	Avai		  4			54
-
-	Isabe		  5			41
-
-	Sophi		  6			62
-
-	Robin		  7			55
-
-	Doee		  8			49
-
-	Smith		  9			48
-
-	Johnso		  10			61
-
-Final result is here 
-
-	Name 		 Roll.no 	 result 	 Marks 
-
-	John		   1		 passed		  52
-
-	Emma		   2 		 failed		  46
-
-	Oliv		   3 		 failed		  48
-
-	Avai		   4		 passed		  54
-
-	Isabe		   5 		 failed		  41
-
-	Sophi		   6		 passed		  62
-
-	Robin		   7		 passed		  55
-
-	Doee		   8 		 failed		  49
-
-	Smith		   9 		 failed		  48
-
-	Johnso		   10		 passed		  61
+	Johnso		 10 		  failed		 5
 

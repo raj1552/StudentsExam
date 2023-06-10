@@ -7,16 +7,6 @@ import java.util.Random;
 class Main {
 
     public static void main(String[] args) throws IOException {
-        // TestClass tc = new TestClass();
-        // tc.testMethod();
-        // tc.setVal(2);
-        // tc.testMethod();
-        // TestClass.testMethodStatic();
-        // TestClass.setVals(2);
-        // TestClass.testMethodStatic();
-        // TestClass tc2 = new TestClass();
-        // tc2.testMethod();
-        // TestClass.testMethodStatic();
         List<Student> studentlist = new ArrayList<>();
         Random newrandom = new Random();
         PrintWriter out = new PrintWriter("marks.txt");
@@ -46,40 +36,93 @@ class Main {
         Classroom classroom = new Classroom("classA", studentlist, "Gan pattey budo");
         System.out.println("Inital marks of the student");
         System.out.println(classroom);
-       
 
-        for (int exam = 1; exam <= 10; exam++) {
-            if (exam % 10 == 0) {
-                System.out.println("Exam day is here!");
-                out.println("Final result is here \n");
-                out.println("\tName \t\t Roll.no \t result \t Marks \n");
+        for (int exam = 1; exam <= 3; exam++) {
+            if (exam % 3 == 0) {
+                out.println("Exam result is here\n");
+                out.println("\tName \t\tRoll.no \tresult \t Marks \n");
                 for (Student student : studentlist) {
                     System.out.println(student.toString());
-                    if (student.getmarks() > 50) {
-                        out.println("\t" + student.getname() + "\t\t" + "   " + student.getrollno() + "\t\t passed"
-                                + "\t\t  " + student.getmarks() + "\n");
+                    if (student.getmarks() > 10) {
+                        out.println("\t" + student.getname() + "\t\t" + " " + student.getrollno() + "\t\t  passed"
+                                + "\t\t " + student.getmarks() + "\n");
 
                     } else {
-                        out.println("\t" + student.getname() + "\t\t" + "   " + student.getrollno() +" "+ "\t\t failed"
-                                + "\t\t  " + student.getmarks() + "\n");
+                        out.println("\t" + student.getname() + "\t\t" + " " + student.getrollno() + " " + "\t\t  failed"
+                                + "\t\t " + student.getmarks() + "\n");
                     }
                     student.resetMarks();
                 }
                 continue;
-            }
-            out.println("Day " + exam + " results: ");
-            out.println("\tName \t\t Roll.no \t Marks \n");
-            for (Student student : studentlist) {
                 
-                int examMarks = newrandom.nextInt(10) + 1;
-                student.addMarks(examMarks);
-                out.println("\t"+student.getname()+"\t\t"+"  "+ student.getrollno()+"\t\t\t"+student.getmarks()+"\n");
-                System.out.println(student.toString());
+            }
+
+            if (exam == 1) {
+                out.println("Day" + exam + "results:");
+                out.println("\tName \t\t Roll.no \t Marks \n");
+                for (Student student : studentlist) {
+                    Marks1 examMarks1 = new Marks1(0);
+                    int examMarks = newrandom.nextInt(10) + 1;
+                    examMarks1.addexamMarks1(examMarks);
+                    student.addMarks(examMarks);
+                    out.println("\t" + student.getname() + "\t\t" + " " +
+                            student.getrollno() + "\t\t\t" + examMarks1.getexamMarks1() + "\n");
+
+                }
+
+            } else if (exam == 2) {
+                out.println("Day" + exam + "results:\n");
+                out.println("\tName \t\t Roll.no \t Marks \n");
+                for (Student student : studentlist) {
+                    Marks2 examMarks2 = new Marks2(0);
+                    int examMarks = newrandom.nextInt(10) + 1;
+                    examMarks2.addexamMarks2(examMarks);
+                    student.addMarks(examMarks);
+                    out.println("\t" + student.getname() + "\t\t" + " " +
+                            student.getrollno() + "\t\t\t" + examMarks2.getexamMarks2() + "\n");
+
+                }
 
             }
-        }
 
-        out.close();
+           
+        }
+         out.close();
+
+        // for (int exam = 1; exam <= 10; exam++) {
+        // if (exam % 10 == 0) {
+        // System.out.println("Exam day is here!");
+        // out.println("Final result is here \n");
+        // out.println("\tName \t\t Roll.no \t result \t Marks \n");
+        // for (Student student : studentlist) {
+        // System.out.println(student.toString());
+        // if (student.getmarks() > 50) {
+        // out.println("\t" + student.getname() + "\t\t" + " " + student.getrollno() +
+        // "\t\t passed"
+        // + "\t\t " + student.getmarks() + "\n");
+
+        // } else {
+        // out.println("\t" + student.getname() + "\t\t" + " " + student.getrollno() +"
+        // "+ "\t\t failed"
+        // + "\t\t " + student.getmarks() + "\n");
+        // }
+        // student.resetMarks();
+        // }
+        // continue;
+        // }
+        // out.println("Day " + exam + " results: ");
+
+        // for (Student student : studentlist) {
+
+        // int examMarks = newrandom.nextInt(10) + 1;
+        // student.addMarks(examMarks);
+
+        // System.out.println(student.toString());
+
+        // }
+        // }
+
+        // out.close();
     }
 
 }
