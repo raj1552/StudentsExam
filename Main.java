@@ -9,8 +9,6 @@ class Main {
     public static void main(String[] args) throws IOException {
         List<Student> studentlist = new ArrayList<>();
         Random newrandom = new Random();
-        PrintWriter ExamMarks = new PrintWriter("Exammarks.txt");
-        PrintWriter finalresult= new PrintWriter("FinalResult.txt");
 
         Student newstudent = new Student(10, 1, 20, 0, 1, 1);
         studentlist.add(newstudent);
@@ -39,40 +37,38 @@ class Main {
         System.out.println(classroom);
 
         for (int exam = 1; exam <= 10; exam++) {
+
             if (exam % 10 == 0) {
-                finalresult.println("Result day is here\n");
-                finalresult.println("\tName \t\tRoll.no \tresult  \t Marks \n");
+                PrintWriter finalresult = new PrintWriter("FinalResult.xlsx");
+                finalresult.println("Name \tRoll.no\tResult\tMarks");
                 for (Student student : studentlist) {
                     System.out.println(student.toString());
-                    if (student.getmarks() > 40) {
-                        finalresult.println("\t" + student.getname() + "\t\t" + " " + student.getrollno() + "\t\t\tpassed"
-                                + "\t\t " + student.getmarks() + "\n");
+                    if (student.getmarks() > 50) {
+                        finalresult.println(student.getname() + "\t" +student.getrollno() + "\tpassed"
+                                        + "\t" + student.getmarks());
 
                     } else {
-                        finalresult.println("\t" + student.getname() + "\t\t" + " " + student.getrollno() + " " + "\t\t\tfailed"
-                                + "\t\t " + student.getmarks() + "\n");
+                        finalresult.println(student.getname() + "\t" + student.getrollno() +"\tfailed"
+                                        + "\t" + student.getmarks());
                     }
                     student.resetMarks();
                 }
+                finalresult.close();
                 continue;
 
             }
-
-            ExamMarks.println("Day" + exam + "results:");
-            ExamMarks.println("\tName \t\t Roll.no \t Marks \n");
+            PrintWriter ExamMarks = new PrintWriter("Exam" + exam + ".xlsx");
+            ExamMarks.println("Name\tRoll.no\tMarks");
             for (Student student : studentlist) {
                 Marks examMarks = new Marks(0);
                 int studentMarks = newrandom.nextInt(10) + 1;
                 examMarks.addexamMarks(studentMarks);
                 student.addMarks(studentMarks);
-                ExamMarks.println("\t" + student.getname() + "\t\t" + " " +
-                        student.getrollno() + "\t\t\t" + examMarks.getexamMarks() + "\n");
+                ExamMarks.println(student.getname() + "\t" +student.getrollno() + "\t" + examMarks.getexamMarks());
 
             }
-
+            ExamMarks.close();
         }
-        ExamMarks.close();
-        finalresult.close();
 
     }
 
