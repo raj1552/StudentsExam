@@ -9,7 +9,8 @@ class Main {
     public static void main(String[] args) throws IOException {
         List<Student> studentlist = new ArrayList<>();
         Random newrandom = new Random();
-        PrintWriter out = new PrintWriter("marks.txt");
+        PrintWriter ExamMarks = new PrintWriter("Exammarks.txt");
+        PrintWriter finalresult= new PrintWriter("FinalResult.txt");
 
         Student newstudent = new Student(10, 1, 20, 0, 1, 1);
         studentlist.add(newstudent);
@@ -39,39 +40,40 @@ class Main {
 
         for (int exam = 1; exam <= 10; exam++) {
             if (exam % 10 == 0) {
-                out.println("Result day is here\n");
-                out.println("\tName \t\tRoll.no \tresult  \t Marks \n");
+                finalresult.println("Result day is here\n");
+                finalresult.println("\tName \t\tRoll.no \tresult  \t Marks \n");
                 for (Student student : studentlist) {
                     System.out.println(student.toString());
                     if (student.getmarks() > 40) {
-                        out.println("\t" + student.getname() + "\t\t" + " " + student.getrollno() + "\t\t\tpassed"
+                        finalresult.println("\t" + student.getname() + "\t\t" + " " + student.getrollno() + "\t\t\tpassed"
                                 + "\t\t " + student.getmarks() + "\n");
 
                     } else {
-                        out.println("\t" + student.getname() + "\t\t" + " " + student.getrollno() + " " + "\t\t\tfailed"
+                        finalresult.println("\t" + student.getname() + "\t\t" + " " + student.getrollno() + " " + "\t\t\tfailed"
                                 + "\t\t " + student.getmarks() + "\n");
                     }
                     student.resetMarks();
                 }
                 continue;
-                
+
             }
 
-                out.println("Day" + exam + "results:");
-                out.println("\tName \t\t Roll.no \t Marks \n");
-                for (Student student : studentlist) {
-                    Marks examMarks = new Marks(0);
-                    int studentMarks= newrandom.nextInt(10) + 1;
-                    examMarks.addexamMarks(studentMarks);
-                    student.addMarks(studentMarks);
-                    out.println("\t" + student.getname() + "\t\t" + " " +
-                            student.getrollno() + "\t\t\t" + examMarks.getexamMarks() + "\n");
+            ExamMarks.println("Day" + exam + "results:");
+            ExamMarks.println("\tName \t\t Roll.no \t Marks \n");
+            for (Student student : studentlist) {
+                Marks examMarks = new Marks(0);
+                int studentMarks = newrandom.nextInt(10) + 1;
+                examMarks.addexamMarks(studentMarks);
+                student.addMarks(studentMarks);
+                ExamMarks.println("\t" + student.getname() + "\t\t" + " " +
+                        student.getrollno() + "\t\t\t" + examMarks.getexamMarks() + "\n");
 
-                }
+            }
 
-           
         }
-         out.close();
+        ExamMarks.close();
+        finalresult.close();
+
     }
 
 }
