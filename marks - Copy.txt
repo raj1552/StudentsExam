@@ -1,0 +1,71 @@
+Day1results:
+	Name 		 Roll.no 	 Marks 
+
+	John		 1			7
+
+	Emma		 2			9
+
+	Oliv		 3			3
+
+	Avai		 4			10
+
+	Isabe		 5			5
+
+	Sophi		 6			3
+
+	Robin		 7			9
+
+	Doee		 8			7
+
+	Smith		 9			3
+
+	Johnso		 10			2
+
+Day2results:
+
+	Name 		 Roll.no 	 Marks 
+
+	John		 1			6
+
+	Emma		 2			6
+
+	Oliv		 3			10
+
+	Avai		 4			6
+
+	Isabe		 5			8
+
+	Sophi		 6			1
+
+	Robin		 7			5
+
+	Doee		 8			7
+
+	Smith		 9			10
+
+	Johnso		 10			3
+
+Exam result is here
+
+	Name 		Roll.no 	result  	 Marks 
+
+	John		 1			passed		 13
+
+	Emma		 2			passed		 15
+
+	Oliv		 3			passed		 13
+
+	Avai		 4			passed		 16
+
+	Isabe		 5			passed		 13
+
+	Sophi		 6 			failed		 4
+
+	Robin		 7			passed		 14
+
+	Doee		 8			passed		 14
+
+	Smith		 9			passed		 13
+
+	Johnso		 10 			failed		 5
+
